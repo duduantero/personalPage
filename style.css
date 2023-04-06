@@ -10,17 +10,29 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: var(--font1);
+}
+body{
+    background-color: var(--cor1);
 }
 nav{
-    background-color: var(--cor2);
+    background-color: var(--cor1);
+    column-count: 2;
 }
 ul {
     display: flex;
     justify-content: end;
+    padding: 30px;
+    text-align: center;
+}
+ul a{
+    padding-left: 5px;
+    padding-right: 5px;
 }
 .logo{
     width: auto;
-    height: 50px;
+    height: 100px;
+    display: flex;
     justify-content: center;
 }
 .home{
