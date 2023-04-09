@@ -35,6 +35,10 @@ ul a{
     display: flex;
     justify-content: center;
 }
+.icons{
+    width: 20px;
+    height: 20px;
+}
 .home{
 
     font-family: var(--font1);
