@@ -38,16 +38,32 @@ ul a{
 .icons{
     width: 20px;
     height: 20px;
+    padding-top: 200px;
+}
+.email{
+    padding-top: 120px;
 }
 .home{
-
-    font-family: var(--font1);
     column-count: 2;
     column-gap: 15px;
     -webkit-column-count: 2;
-    align-items:baseline;
+    height:400px;
+    width: 100vw;
+    padding: 150px 150px 0px;
+    text-align: justify;
 }
 .me{
     width: 150px;
     height: 150px;
+    padding-left: 100px;
+}
+.atuacao{
+    column-count: 2;
+    column-gap: 15px;
+    -webkit-column-count: 2;
+}
+.habilidades{
+    column-count: 4;
+    column-gap: 15px;
+    -webkit-column-count: 4;
 }
