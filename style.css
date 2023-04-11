@@ -12,6 +12,9 @@
     padding: 0px;
     font-family: var(--font1);
 }
+h1{
+    font-size: 30px;
+}
 body{
     background-color: var(--cor1);
 }
@@ -31,7 +34,7 @@ ul a{
 }
 .logo{
     width: auto;
-    height: 100px;
+    height: 150px;
     display: flex;
     justify-content: center;
 }
@@ -47,14 +50,21 @@ ul a{
     column-count: 2;
     column-gap: 15px;
     -webkit-column-count: 2;
-    height:400px;
+    height:100vh;
     width: 100vw;
     padding: 150px 150px 0px;
     text-align: justify;
 }
+.home h1{
+    padding-bottom: 10px;
+    font-size: 50px;
+}
+.home p{
+    font-size: 24px;
+}
 .me{
-    width: 150px;
-    height: 150px;
+    width: 300px;
+    height: 300px;
     padding-left: 100px;
 }
 .atuacao{
@@ -62,12 +72,19 @@ ul a{
     column-gap: 15px;
     -webkit-column-count: 2;
 }
+.atuacao div{
+    padding: 30px 10px 10px 0px;
+}
+.atuacao p {
+    padding-top: 10px;
+}
 .habilidades{
     column-count: 4;
     column-gap: 15px;
     -webkit-column-count: 4;
 }
-.logo{
+.logo-hab{
     width: 50px;
     height: 50px;
+    padding: 20px;
 }
