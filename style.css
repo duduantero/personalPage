@@ -17,6 +17,7 @@ h1{
 }
 body{
     background-color: var(--cor1);
+    width: 100vw;
 }
 nav{
     background-color: var(--cor1);
@@ -69,7 +70,7 @@ ul a{
     padding-left: 100px;
 }
 #atuacao{
-    padding: 9% 0% 2%;
+    padding: 9% 7% 2%;
 }
 .atuacao{
     column-count: 2;
@@ -77,15 +78,22 @@ ul a{
     -webkit-column-count: 2;
     height:50vh;
     width: 100vw;
+
 }
 .atuacao div{
     padding: 30px 10px 10px 0px;
 }
+.atuacao h1{
+    font-weight: bold;
+}
 .atuacao p {
     padding-top: 10px;
 }
+.atuacao img{
+    padding-bottom: 2%;
+}
 #habilidade{
-    padding: 5% 0% 2%;
+    padding: 5% 7% 2%;
     height:50vh;
     width: 100vw;
 }
@@ -104,6 +112,7 @@ ul a{
 .experiencia{
     height:50vh;
     width: 100vw;
+    padding: 5% 7% 2%;
 }
 .experiencia div{
     padding: 2% 0%;
@@ -112,6 +121,7 @@ footer{
     text-align: center;
     background-color: var(--cor2);
     height: 50px;
+    
 }
 footer p{
     color: var(--cor1);
