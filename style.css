@@ -29,8 +29,9 @@ ul {
     text-align: center;
 }
 ul a{
-    padding-left: 5px;
-    padding-right: 5px;
+    padding: 0px 5px;
+    text-decoration: none;
+    color: var(--cor2);
 }
 .logo{
     width: auto;
@@ -50,7 +51,7 @@ ul a{
     column-count: 2;
     column-gap: 15px;
     -webkit-column-count: 2;
-    height:100vh;
+    height:50vh;
     width: 100vw;
     padding: 150px 150px 0px;
     text-align: justify;
@@ -64,13 +65,18 @@ ul a{
 }
 .me{
     width: 300px;
-    height: 300px;
+    height: auto;
     padding-left: 100px;
+}
+#atuacao{
+    padding: 9% 0% 2%;
 }
 .atuacao{
     column-count: 2;
     column-gap: 15px;
     -webkit-column-count: 2;
+    height:50vh;
+    width: 100vw;
 }
 .atuacao div{
     padding: 30px 10px 10px 0px;
@@ -78,13 +84,36 @@ ul a{
 .atuacao p {
     padding-top: 10px;
 }
+#habilidade{
+    padding: 5% 0% 2%;
+    height:50vh;
+    width: 100vw;
+}
 .habilidades{
     column-count: 4;
     column-gap: 15px;
     -webkit-column-count: 4;
+ 
 }
 .logo-hab{
     width: 50px;
     height: 50px;
     padding: 20px;
+}
+
+.experiencia{
+    height:50vh;
+    width: 100vw;
+}
+.experiencia div{
+    padding: 2% 0%;
+}
+footer{
+    text-align: center;
+    background-color: var(--cor2);
+    height: 50px;
+}
+footer p{
+    color: var(--cor1);
+
 }
